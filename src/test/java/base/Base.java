@@ -34,6 +34,7 @@ public class Base {
 				System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 		ChromeOptions op = new ChromeOptions();
 		op.addArguments("--start-maximized");
+		op.addArguments("--headless");
 		driver = new ChromeDriver(op);
 		wait = new WebDriverWait(driver,Duration.ofSeconds(15));
 		js = (JavascriptExecutor) driver;
