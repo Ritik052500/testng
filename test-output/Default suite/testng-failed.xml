@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.JenkinsCalcTest">
+      <class name="demo.DynamicDataForm">
         <methods>
-          <include name="test3"/>
+          <include name="popup"/>
           <include name="closeBrowser"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- demo.JenkinsCalcTest -->
+      </class> <!-- demo.DynamicDataForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,73 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="78" total="82" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T16:23:30 EDT" name="Default suite" finished-at="2023-05-19T16:23:44 EDT" duration-ms="13649">
+  <suite started-at="2023-05-30T14:51:01 EDT" name="Suite" finished-at="2023-05-30T14:51:15 EDT" duration-ms="13297">
     <groups>
+      <group name="six">
+        <method signature="TablePaginationForm.table()[pri:0, instance:demo.TablePaginationForm@2f4948e4]" name="table" class="demo.TablePaginationForm"/>
+        <method signature="TableSortAndSearchForm.table()[pri:0, instance:demo.TableSortAndSearchForm@1f2586d6]" name="table" class="demo.TableSortAndSearchForm"/>
+      </group> <!-- six -->
+      <group name="five">
+        <method signature="SelectForm.selectForm()[pri:0, instance:demo.SelectForm@7d20d0b]" name="selectForm" class="demo.SelectForm"/>
+        <method signature="SimpleForm.simpleInputForm()[pri:0, instance:demo.SimpleForm@77f1baf5]" name="simpleInputForm" class="demo.SimpleForm"/>
+      </group> <!-- five -->
     </groups>
-    <test started-at="2023-05-19T16:23:30 EDT" name="Default test" finished-at="2023-05-19T16:23:44 EDT" duration-ms="13649">
-      <class name="demo.JenkinsCalcTest">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.JenkinsCalcTest@10e31a9a]" started-at="2023-05-19T16:23:30 EDT" name="startBrowser" finished-at="2023-05-19T16:23:32 EDT" duration-ms="2558" status="PASS">
+    <test started-at="2023-05-30T14:51:01 EDT" name="Package Test" finished-at="2023-05-30T14:51:08 EDT" duration-ms="6255">
+      <class name="demo.TableSortAndSearchForm">
+        <test-method signature="table()[pri:0, instance:demo.TableSortAndSearchForm@1f2586d6]" started-at="2023-05-30T14:51:06 EDT" name="table" finished-at="2023-05-30T14:51:07 EDT" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+      </class> <!-- demo.TableSortAndSearchForm -->
+      <class name="demo.AjaxForm">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.AjaxForm@22555ebf]" started-at="2023-05-30T14:51:01 EDT" name="startBrowser" finished-at="2023-05-30T14:51:04 EDT" duration-ms="2438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="test1()[pri:0, instance:demo.JenkinsCalcTest@10e31a9a]" started-at="2023-05-19T16:23:33 EDT" name="test1" finished-at="2023-05-19T16:23:39 EDT" duration-ms="6891" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:demo.JenkinsCalcTest@10e31a9a]" started-at="2023-05-19T16:23:39 EDT" name="test2" finished-at="2023-05-19T16:23:43 EDT" duration-ms="3379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:demo.JenkinsCalcTest@10e31a9a]" started-at="2023-05-19T16:23:43 EDT" name="test3" finished-at="2023-05-19T16:23:43 EDT" duration-ms="713" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Values should be different. Actual: Google]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Values should be different. Actual: Google
-at org.junit.Assert.fail(Assert.java:89)
-at org.junit.Assert.failEquals(Assert.java:187)
-at org.junit.Assert.assertNotEquals(Assert.java:163)
-at org.junit.Assert.assertNotEquals(Assert.java:177)
-at demo.JenkinsCalcTest.test3(JenkinsCalcTest.java:58)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.JenkinsCalcTest@10e31a9a]" started-at="2023-05-19T16:23:43 EDT" name="closeBrowser" finished-at="2023-05-19T16:23:44 EDT" duration-ms="38" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.AjaxForm@22555ebf]" started-at="2023-05-30T14:51:07 EDT" name="closeBrowser" finished-at="2023-05-30T14:51:08 EDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- demo.JenkinsCalcTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- demo.AjaxForm -->
+      <class name="demo.TablePaginationForm">
+        <test-method signature="table()[pri:0, instance:demo.TablePaginationForm@2f4948e4]" started-at="2023-05-30T14:51:04 EDT" name="table" finished-at="2023-05-30T14:51:06 EDT" duration-ms="2587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- table -->
+      </class> <!-- demo.TablePaginationForm -->
+    </test> <!-- Package Test -->
+    <test started-at="2023-05-30T14:51:08 EDT" name="Class Test" finished-at="2023-05-30T14:51:15 EDT" duration-ms="6988">
+      <class name="demo.SimpleForm">
+        <test-method signature="simpleInputForm()[pri:0, instance:demo.SimpleForm@77f1baf5]" started-at="2023-05-30T14:51:14 EDT" name="simpleInputForm" finished-at="2023-05-30T14:51:15 EDT" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleInputForm -->
+      </class> <!-- demo.SimpleForm -->
+      <class name="demo.SelectForm">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-30T14:51:08 EDT" name="startBrowser" finished-at="2023-05-30T14:51:09 EDT" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="selectForm()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-30T14:51:09 EDT" name="selectForm" finished-at="2023-05-30T14:51:14 EDT" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectForm -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-30T14:51:15 EDT" name="closeBrowser" finished-at="2023-05-30T14:51:15 EDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.SelectForm -->
+    </test> <!-- Class Test -->
+  </suite> <!-- Suite -->
 </testng-results>

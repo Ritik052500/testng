@@ -1,15 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Package Test(failed)">
+    <groups>
+      <run>
+        <exclude name="six,pop"/>
+      </run>
+    </groups>
     <classes>
-      <class name="demo.JenkinsCalcTest">
+      <class name="demo.SelectForm">
         <methods>
-          <include name="test3"/>
+          <include name="multiSelectForm"/>
+          <include name="selectForm"/>
           <include name="closeBrowser"/>
           <include name="startBrowser"/>
         </methods>
-      </class> <!-- demo.JenkinsCalcTest -->
+      </class> <!-- demo.SelectForm -->
+      <class name="demo.CheckboxForm">
+        <methods>
+          <include name="singleCheckbox"/>
+          <include name="multipleCheckbox"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.CheckboxForm -->
+      <class name="demo.TableDataSearchForm">
+        <methods>
+          <include name="listUsers"/>
+          <include name="tasks"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.TableDataSearchForm -->
+      <class name="demo.JQueryProgressBar">
+        <methods>
+          <include name="progress"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.JQueryProgressBar -->
+      <class name="demo.BootstrapAlertForm">
+        <methods>
+          <include name="alert"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.BootstrapAlertForm -->
+      <class name="demo.JQuerySelectForm">
+        <methods>
+          <include name="jQueryForm"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.JQuerySelectForm -->
+      <class name="demo.RangeSlidersForm">
+        <methods>
+          <include name="progress"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.RangeSlidersForm -->
+      <class name="demo.SimpleForm">
+        <methods>
+          <include name="simpleInputForm"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+          <include name="doubleInputForm"/>
+        </methods>
+      </class> <!-- demo.SimpleForm -->
+      <class name="demo.BootstrapListBoxForm">
+        <methods>
+          <include name="popup"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.BootstrapListBoxForm -->
+      <class name="demo.DragAndDropForm">
+        <methods>
+          <include name="popup"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.DragAndDropForm -->
+      <class name="demo.ProgressBarModalForm">
+        <methods>
+          <include name="popup"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.ProgressBarModalForm -->
+      <class name="demo.DynamicDataForm">
+        <methods>
+          <include name="popup"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.DynamicDataForm -->
+      <class name="demo.BootstrapProgressBar">
+        <methods>
+          <include name="progress"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.BootstrapProgressBar -->
+      <class name="demo.TableSortAndSearchForm">
+        <methods>
+          <include name="table"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.TableSortAndSearchForm -->
+      <class name="demo.TablePaginationForm">
+        <methods>
+          <include name="table"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.TablePaginationForm -->
+      <class name="demo.WindowPopupForm">
+        <methods>
+          <include name="popup"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.WindowPopupForm -->
+      <class name="demo.BootstrapDatePicker">
+        <methods>
+          <include name="dateRange"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+          <include name="date"/>
+        </methods>
+      </class> <!-- demo.BootstrapDatePicker -->
+      <class name="demo.JQueryDatePicker">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="dateRange"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.JQueryDatePicker -->
+      <class name="demo.RadioForm">
+        <methods>
+          <include name="groupRadioForm"/>
+          <include name="radioForm"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.RadioForm -->
+      <class name="demo.JQueryListBoxForm">
+        <methods>
+          <include name="popup"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.JQueryListBoxForm -->
+      <class name="demo.InputForm">
+        <methods>
+          <include name="inputForm"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.InputForm -->
+      <class name="demo.BootstrapModalForm">
+        <methods>
+          <include name="modal"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.BootstrapModalForm -->
+      <class name="demo.AjaxForm">
+        <methods>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- demo.AjaxForm -->
+      <class name="demo.TableFilterForm">
+        <methods>
+          <include name="table"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.TableFilterForm -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Package Test(failed) -->
+  <test thread-count="5" name="Class Test(failed)">
+    <groups>
+      <run>
+        <include name="five"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="demo.SelectForm">
+        <methods>
+          <include name="selectForm"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.SelectForm -->
+      <class name="demo.SimpleForm">
+        <methods>
+          <include name="simpleInputForm"/>
+          <include name="closeBrowser"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- demo.SimpleForm -->
+    </classes>
+  </test> <!-- Class Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="demo.JenkinsCalcTest"/>
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Package Test">
+		<groups>
+			<run>
+				<include name="six"></include>
+				<exclude name="pop"></exclude>
+			</run>
+		</groups>
+		<packages>
+			<package name="demo"></package>
+		</packages>
+	</test> <!-- Test -->
+	
+	<test name="Class Test">
+		<groups>
+			<run>
+				<include name="five"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="demo.SelectForm"></class>
+			<class name="demo.SimpleForm"></class>
+		</classes>
+	</test> <!-- Test -->
+	
 </suite> <!-- Suite -->
