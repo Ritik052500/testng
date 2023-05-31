@@ -2,7 +2,7 @@
 <testng-results ignored="78" total="82" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-30T14:51:01 EDT" name="Suite" finished-at="2023-05-30T14:51:15 EDT" duration-ms="13297">
+  <suite started-at="2023-05-31T16:10:05 EDT" name="Suite" finished-at="2023-05-31T16:10:20 EDT" duration-ms="15769">
     <groups>
       <group name="six">
         <method signature="TablePaginationForm.table()[pri:0, instance:demo.TablePaginationForm@2f4948e4]" name="table" class="demo.TablePaginationForm"/>
@@ -13,47 +13,47 @@
         <method signature="SimpleForm.simpleInputForm()[pri:0, instance:demo.SimpleForm@77f1baf5]" name="simpleInputForm" class="demo.SimpleForm"/>
       </group> <!-- five -->
     </groups>
-    <test started-at="2023-05-30T14:51:01 EDT" name="Package Test" finished-at="2023-05-30T14:51:08 EDT" duration-ms="6255">
+    <test started-at="2023-05-31T16:10:05 EDT" name="Package Test" finished-at="2023-05-31T16:10:14 EDT" duration-ms="9464">
       <class name="demo.TableSortAndSearchForm">
-        <test-method signature="table()[pri:0, instance:demo.TableSortAndSearchForm@1f2586d6]" started-at="2023-05-30T14:51:06 EDT" name="table" finished-at="2023-05-30T14:51:07 EDT" duration-ms="983" status="PASS">
+        <test-method signature="table()[pri:0, instance:demo.TableSortAndSearchForm@1f2586d6]" started-at="2023-05-31T16:10:13 EDT" name="table" finished-at="2023-05-31T16:10:14 EDT" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- table -->
       </class> <!-- demo.TableSortAndSearchForm -->
       <class name="demo.AjaxForm">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.AjaxForm@22555ebf]" started-at="2023-05-30T14:51:01 EDT" name="startBrowser" finished-at="2023-05-30T14:51:04 EDT" duration-ms="2438" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.AjaxForm@22555ebf]" started-at="2023-05-31T16:10:05 EDT" name="startBrowser" finished-at="2023-05-31T16:10:08 EDT" duration-ms="3295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.AjaxForm@22555ebf]" started-at="2023-05-30T14:51:07 EDT" name="closeBrowser" finished-at="2023-05-30T14:51:08 EDT" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.AjaxForm@22555ebf]" started-at="2023-05-31T16:10:14 EDT" name="closeBrowser" finished-at="2023-05-31T16:10:14 EDT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- demo.AjaxForm -->
       <class name="demo.TablePaginationForm">
-        <test-method signature="table()[pri:0, instance:demo.TablePaginationForm@2f4948e4]" started-at="2023-05-30T14:51:04 EDT" name="table" finished-at="2023-05-30T14:51:06 EDT" duration-ms="2587" status="PASS">
+        <test-method signature="table()[pri:0, instance:demo.TablePaginationForm@2f4948e4]" started-at="2023-05-31T16:10:08 EDT" name="table" finished-at="2023-05-31T16:10:13 EDT" duration-ms="5184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- table -->
       </class> <!-- demo.TablePaginationForm -->
     </test> <!-- Package Test -->
-    <test started-at="2023-05-30T14:51:08 EDT" name="Class Test" finished-at="2023-05-30T14:51:15 EDT" duration-ms="6988">
+    <test started-at="2023-05-31T16:10:14 EDT" name="Class Test" finished-at="2023-05-31T16:10:20 EDT" duration-ms="6257">
       <class name="demo.SimpleForm">
-        <test-method signature="simpleInputForm()[pri:0, instance:demo.SimpleForm@77f1baf5]" started-at="2023-05-30T14:51:14 EDT" name="simpleInputForm" finished-at="2023-05-30T14:51:15 EDT" duration-ms="581" status="PASS">
+        <test-method signature="simpleInputForm()[pri:0, instance:demo.SimpleForm@77f1baf5]" started-at="2023-05-31T16:10:20 EDT" name="simpleInputForm" finished-at="2023-05-31T16:10:20 EDT" duration-ms="510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleInputForm -->
       </class> <!-- demo.SimpleForm -->
       <class name="demo.SelectForm">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-30T14:51:08 EDT" name="startBrowser" finished-at="2023-05-30T14:51:09 EDT" duration-ms="974" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-31T16:10:14 EDT" name="startBrowser" finished-at="2023-05-31T16:10:15 EDT" duration-ms="876" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="selectForm()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-30T14:51:09 EDT" name="selectForm" finished-at="2023-05-30T14:51:14 EDT" duration-ms="5291" status="PASS">
+        <test-method signature="selectForm()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-31T16:10:15 EDT" name="selectForm" finished-at="2023-05-31T16:10:20 EDT" duration-ms="4842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectForm -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-30T14:51:15 EDT" name="closeBrowser" finished-at="2023-05-30T14:51:15 EDT" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.SelectForm@7d20d0b]" started-at="2023-05-31T16:10:20 EDT" name="closeBrowser" finished-at="2023-05-31T16:10:20 EDT" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
