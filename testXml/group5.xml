@@ -4,7 +4,7 @@
 	<test thread-count="5" name="Group 5 Test">
 		<groups>
 			<run>
-				<include name="give"></include>
+				<include name="five"></include>
 			</run>
 		</groups>
 		<packages>
